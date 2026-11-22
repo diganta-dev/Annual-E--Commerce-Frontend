@@ -3,6 +3,7 @@
 
 import Image from "next/image";
 import logo from "@/public/images/logo.png";
+import { LoginForm } from "@/components/form/login-form";
 
 export default function Login() {
   return (
@@ -26,10 +27,9 @@ export default function Login() {
         <p className="text-xs text-[#8fb093]">&copy; 2026 Dynamic Coding with Diganta</p>
       </div>
 
-
       {/***Right */}
       <div className="flex flex-1 items-center justify-center bg-background p-8">
-
+        <LoginForm />
       </div>
     </div>
   );
